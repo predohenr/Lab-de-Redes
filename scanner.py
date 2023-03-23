@@ -23,6 +23,6 @@ def scan(ip):
 #FAÇA AQUI A PARTE DO CODIGO QUE DA AO USUARIO PODER DE DECIDIR
 #QUANDO PARAR O SCRIPT
 
-subnet='10.0.84.0/24'
+subnet='IP/MASK'
 timer=RepeatTimer(1.0,scan,[subnet])
 timer.start()
